@@ -1,0 +1,62 @@
+*{
+    box-sizing: border-box;
+    padding:0;
+    margin: 0;
+}
+body{
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+.repo-container{
+    color:black;
+    font-weight: bold;
+    background-color: #6fd6cd;
+
+    text-align: center;
+
+}
+
+.repo-container input {
+    border-radius: 05px;
+    padding: 08px;
+    margin-right: 5px;
+}
+.get{
+    border-radius: 05px;
+    cursor: pointer;
+    background-color:#2b0101;
+    color:white;
+    padding: 8px;
+    margin: 0;
+
+}
+.get-repo{
+    width: 100%;
+    padding: 20px;
+    background-color: #67ace8;
+    display: flex;
+    justify-content: center;
+
+}
+
+.float{
+    background-color: gray;
+    border: 03px solid red;
+    
+}
+
+.float div {
+    border: 03px solid black;
+    width: 33.3%;
+
+
+    text-align: center;
+
+}
+
+
+.show-data a{
+text-decoration: none;
+cursor: pointer;
+}
+
